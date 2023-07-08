@@ -1,12 +1,21 @@
+/* header background */
+.header{
+    background-color: #FFF8F3;
+    /* background-image: url(image/photo-1608447714925-599deeb5a682.avif); */
+    /* background-repeat:; */
+}
 /* nav related style */
 nav {
     display: flex;
     justify-content: space-between;
+    margin:0 150px;
+    /* color: white; */
 }
 .logo{
     /* font-family: Open Sans; */
     font-size: 45px;
     font-weight: 800px;
+    /* color: white; */
 }
 .text-color{
     color: #FD6E0A;
@@ -22,6 +31,7 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+    /* color: white; */
 }
 .btn-style{
     border-radius: 5px;
@@ -29,9 +39,21 @@ nav a{
     border: 0;
     color: white;
     font-size: 20px;
-    font-weight: 700;
-    padding: 15px;
+    font-weight: 00;
+    padding: 10px;
 }
 .strong-text{
     font-size: 17px;
+
+}
+.main-title{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    /* color: white; */
+    align-items: center;
+}
+.photo{
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
 }
