@@ -81,12 +81,17 @@ h1.easin{
     
 
 /* main section style */
+main{
+    max-width:1000px;
+    margin: 0 auto;
+}
 
 /* about section style */
 .about{
-    margin-top: 150PX;
+    padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
+    margin: 130px 0;
 }
 .about-section{
     color: #181818;
@@ -101,6 +106,12 @@ h1.easin{
     color: #757575;
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
 
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
