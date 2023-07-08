@@ -1,8 +1,11 @@
 /* header background */
 .header{
     background-color: #FFF8F3;
-    /* background-image: url(image/photo-1608447714925-599deeb5a682.avif); */
-    /* background-repeat:; */
+    background-image: url(image/istockphoto-1191719793-170667a.webp);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-position:; */
+    background-size: cover;
 }
 /* nav related style */
 nav {
@@ -15,7 +18,7 @@ nav {
     /* font-family: Open Sans; */
     font-size: 45px;
     font-weight: 800px;
-    /* color: white; */
+    color: white;
 }
 .text-color{
     color: #FD6E0A;
@@ -31,7 +34,7 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
-    /* color: white; */
+    color: white;
 }
 .btn-style{
     border-radius: 5px;
@@ -40,20 +43,64 @@ nav a{
     color: white;
     font-size: 20px;
     font-weight: 00;
-    padding: 10px;
+    padding: 8px;
+}
+#button{
+    margin-right: 10px;
 }
 .strong-text{
     font-size: 17px;
 
 }
 .main-title{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
-    /* color: white; */
+    color: white;
     align-items: center;
+    justify-content:space-between ;
 }
 .photo{
     width: 584px;
     height: 676px;
     flex-shrink: 0;
+}
+h3.people{
+    font-size: 20px;
+    margin:0;
+}
+h1.easin{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top:0;
+}
+.main-title > div > p {
+    margin-top: -35px;
+}
+    
+
+/* main section style */
+
+/* about section style */
+.about{
+    margin-top: 150PX;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+.about-section{
+    color: #181818;
+    text-align: center;
+    /* font-family: Open Sans; */
+    font-size: 35px;
+    /* font-style: normal; */
+    font-weight: 700;
+    
+}
+.about-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
 }
