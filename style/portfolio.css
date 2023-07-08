@@ -115,3 +115,16 @@ main{
 .about-info{
     text-align: center;
 }
+
+
+/* what i do section start */
+
+.section-titel{
+    text-align: center;
+}
+.section-description{
+    text-align: center;
+}
+#what-i-do{
+    padding: 30px 150px;
+}
