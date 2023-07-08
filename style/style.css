@@ -124,6 +124,8 @@ main section{
 
 .summary{
     text-align: center;
+    font-size: 27px;
+    margin-bottom: 10px;
 }
 
 .section-titel{
@@ -131,6 +133,7 @@ main section{
 }
 .section-description{
     text-align: center;
+    color: #757575;
 }
 /* style of skill */
 #what-i-do{
@@ -149,6 +152,7 @@ main section{
 }
 .skill-paragraph{
     padding: 0px;
+    color: #757575;
 }
 
 /* A summary of My Resume*/
@@ -156,5 +160,20 @@ my-summary{
     color:dark-02, #474747;
     font-size: 30px;
     font-weight: 700;
-
+}
+.summary-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-title{
+    color:  #474747;
+font-size: 25px;
+font-weight: 700;
+}
+.resume-info, .resume-description{
+    color: #757575;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
